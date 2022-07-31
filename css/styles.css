@@ -1,0 +1,230 @@
+body {
+    background-color: #B1D0E0;
+    font-family: "Merriwheather", sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 5.625rem;
+    font-family: "Sacramento", sans-serif;
+    margin: 50px auto 0 auto;
+    color: #1A374D;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: #1A374D;
+    /* font-weight: normal;Reduces the Boldness of the words */
+}
+
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #406882;
+}
+
+a {
+    color: #B1D0E0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #6998AB;
+    width: 10%;
+    margin: 60px auto;
+}
+
+.head2 {
+    margin-top: 0;
+    font-size: larger;
+}
+
+/* .student {
+    text-decoration: underline;
+} */
+
+.top-container {
+    position: relative;
+    padding-top: 5%;
+}
+
+.middle-container {
+    margin: 100px auto;
+}
+
+.bottom-container {
+    background-color: #406882;
+    padding: 50px 0 20px;
+}
+
+.sun {
+    position: absolute;
+    top: 5%;
+    right: 20%;
+}
+
+.clouds {
+    position: absolute;
+    top: 35%;
+    left: 20%;
+}
+.birds {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.education {
+    margin: auto;
+    width: 40%;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.certificates
+{
+    color: #1A374D;
+    margin-left: 0;
+}
+.c-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+
+}
+
+.cpp-img {
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+
+}
+
+.java-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+.html-img {
+    float: right;
+    width: 25%;
+    margin-left: 20px;
+
+}
+
+.music {
+    position: absolute;
+    left: 15%;
+}
+
+.gaming {
+    position: absolute;
+    left: 35%;
+}
+
+.cricket {
+    position: absolute;
+    left: 55%;
+}
+
+.travelling {
+    position: absolute;
+    left: 75%;
+}
+.contact-me
+{
+    padding-top: 220px;
+}
+
+/* .gaming-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+} */
+/* .travelling-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+.playing-cricket-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+}
+.listening-music-img {
+    float: left;
+    width: 25%;
+    margin-right: 30px;
+} */
+
+
+.contact-msg {
+    margin: 40px auto 60px;
+    width: 40%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #1A374D, #406882);
+    background-image: -moz-linear-gradient(top, #1A374D, #406882);
+    background-image: -ms-linear-gradient(top, #1A374D, #406882);
+    background-image: -o-linear-gradient(top, #1A374D, #406882);
+    background-image: linear-gradient(to bottom, #1A374D, #406882);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #406882, #6998AB);
+    background-image: -moz-linear-gradient(top, #406882, #6998AB);
+    background-image: -ms-linear-gradient(top, #406882, #6998AB);
+    background-image: -o-linear-gradient(top, #406882, #6998AB);
+    background-image: linear-gradient(to bottom, #406882, #6998AB);
+    text-decoration: none;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+/* .skill-para1
+This 'clear' works as 'Anti-float'
+{
+    clear:left;
+}
+.skill-para2
+{
+    clear:right;
+} */
